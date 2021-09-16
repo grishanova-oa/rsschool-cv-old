@@ -21,3 +21,12 @@ And I am sure that my qualities will help me achieve high results in this area.
 
 ---
 
+### Education:
+
+* Vitebsk Branch of the Belarusian State Academy of Communications;  
+* Belarusian State University of Informatics and Radioelectronics;  
+* HtmlAcademy courses;  
+* RS-School;  
+
+---
+
