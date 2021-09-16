@@ -15,8 +15,8 @@ GitHub: grishanova-oa
 
 ### About  
 
-Currently, I am a beginner JS developer and I really want to develop in the IT field.  
-I am very capable and purposeful, I am focused on the result.  
+Currently, I am a *beginner JS developer* and I really want to develop in the IT field.  
+I am very **capable** and **purposeful**, I am **focused on the result**.  
 And I am sure that my qualities will help me achieve high results in this area.
 
 ---
@@ -45,3 +45,11 @@ And I am sure that my qualities will help me achieve high results in this area.
 - English - A2;  
 
 ---
+
+### Code example:
+
+```javascript
+function multiply(a, b){
+  return a * b
+}
+```
