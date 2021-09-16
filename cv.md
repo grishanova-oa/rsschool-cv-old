@@ -38,3 +38,10 @@ And I am sure that my qualities will help me achieve high results in this area.
 4. Git;  
 
 ---
+
+### Language:
+
+- Russian - Native;  
+- English - A2;  
+
+---
