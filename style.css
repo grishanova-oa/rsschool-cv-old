@@ -288,8 +288,13 @@ li span{
     .contact_block{
         margin-bottom: 5px;
     }
-    .contacts, .photo_title{
+    .photo_title{
         margin-bottom: 10px;
+    }
+    .contacts{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 10px;
     }
     .profession{
         text-align: left;
@@ -308,7 +313,7 @@ li span{
         width: 380px;
         height: 115px;
     }
-    }
+}
 @media (max-width: 640px){
     body{
         font-size: 15px;
