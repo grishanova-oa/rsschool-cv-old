@@ -1,0 +1,367 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 0 auto;
+    width: 100%;
+    background: url('../assets/img/romb.png') 0 0/100% 100% no-repeat;
+    padding: 30px 0 0 10px;
+}    
+p{
+    margin: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: 500;
+    padding: 0;
+}
+/* header */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(232, 236, 243, 0.7);
+}
+.cont_header{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    background: rgb(144, 194, 221, 0.5);
+    width: 900px;
+    justify-content: flex-end;
+    border-radius: 10px 10px 0 0;
+}
+.header_nav {
+    font-size: 14px;
+    text-transform: uppercase;
+    max-width: 1000px;
+    padding-top: 10px;
+}
+.header_menu {
+    display: flex;
+    padding-right: 20px;
+}
+.menu_item {
+    color: #310401;
+    text-decoration: none;
+    transition: color 0.1s linear;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px;
+    list-style-type: none;
+    position: relative;
+    font-weight: 800;
+}
+.menu_item:hover{
+    color: #35838d;
+}
+/* 1.2 подчеркивание под меню,  position - добаляется родителю */
+.menu_item:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #FFF;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+/* 1.2 подчеркивание под меню */
+.menu_item:hover:after{
+    display: block;
+}
+/* 2 photo */
+ .container_profile {
+    display: flex;
+    justify-content: center ;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.photo {
+    margin-right: 20px;
+}
+.my_photo {
+    width: 180px;
+    border-radius: 25px;
+}
+.description_photo {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic  ;
+}
+.profile_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    width: auto;
+}
+h1{
+    font-family: 'Raleway', sans-serif; 
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.photo_title {
+    margin-bottom: 30px;
+}
+.profession {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    text-align: end;
+}
+/* 3 contacts */
+.profile_contacts {
+    margin-left: 50px;
+}
+.contacts {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;    
+}
+.contacts_list {
+    padding: 0;
+    margin: 0;
+}
+.contact_block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.contact_text {
+    text-decoration: none;
+    color:#310401; 
+    font-size: 20px;   
+}
+.img_phone {
+    background: url('../assets/img/iсon/phone.png')  no-repeat;
+    }
+.img_email {
+    background: url('../assets/img/iсon/email.png')  no-repeat;
+}
+.img_discord {
+    background: url('../assets/img/iсon/git.png') no-repeat;
+}
+.img_location {
+    background: url('../assets/img/iсon/location.png') no-repeat;
+}
+.img_contact{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    background-size: contain;
+}
+/* 4  about*/
+.cont_main{
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.container_main {
+    margin-bottom: 30px;
+    padding: 0 80px;
+}
+.title_decoration{
+    text-align: center;
+    margin-bottom: 22px;
+}
+.title_decoration::after{
+    content: "";
+    display: block;
+    width: 700px;
+    height: 2px;
+    margin: 10px auto 0;
+    background: radial-gradient(at top, #4277b4, #FEFFFF);
+}
+.about_text {
+    text-indent: 35px;
+    margin: 0 35px;
+    text-align: justify;
+}
+/* 5 education */
+.name_college {
+    padding: 0 40px;
+}
+.name_college span {
+    font-family: 'PT Sans', sans-serif;
+}
+/* 6 skills */
+.my_skills {
+    display: flex;
+    justify-content: space-around;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+}
+.skill{
+    width: 75px;
+    height: 75px;
+    margin: 0px 35px;
+}
+.img_html {
+    background: url('../assets/img/logo_HTML.png') center/75px 75px no-repeat;
+}
+.img_css {
+    background: url('../assets/img/logo_CSS.png')  center/75px 75px no-repeat;
+}
+.img_js {
+    background: url('../assets/img/logo_JS.png')  center/75px 75px no-repeat;
+}
+.img_git {
+    background: url('../assets/img/logo_GIT.png')  center/75px 75px no-repeat;
+}
+.my_language {
+    margin-left: 50px;
+}
+.color_point{
+    color: #0b8eab;
+}
+li span{
+    color:black;
+    font-weight: 600;
+}
+.code_context{
+    display: inline-block;
+    margin: 0 auto;
+    overflow: auto;
+    background: rgb(216, 214, 223);
+    padding: 15px 20px;
+    width: 550px;
+    height: 135px;
+}
+.footer{
+    background: rgb(144, 194, 221, 0.5);
+    margin: 0 auto;
+    height: 70px;
+    margin-bottom: 20px;
+    width: 900px;
+    border-radius: 0 0 10px 10px;
+}
+.footer_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo_img{
+    width: 70px;
+    height: 80px;
+}
+.wrapper_code{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 950px){
+    body{
+        font-size: 17px;
+    }
+    .cont_header, .cont_main, .footer{
+        width: 600px;
+    }
+    .profile_contacts, .profile_inner{
+        margin-left: 0px;
+    }
+    .my_photo{
+        width: 150px;
+    }
+    h1{
+        font-size: 25px;
+        margin: 0;
+    }
+    .profession{
+        font-size: 10px;
+    }
+    .contact_text{
+        font-size: 14px;
+    }
+    .contact_block{
+        margin-bottom: 5px;
+    }
+    .contacts, .photo_title{
+        margin-bottom: 10px;
+    }
+    .profession{
+        text-align: left;
+    }
+    .title_decoration::after{
+        width: 400px;
+    }
+    .skill{
+        margin: 0 15px;
+    }
+    .header_nav{
+        font-size: 10px;
+    }
+    .code_context{
+        padding: 15px 20px;
+        width: 380px;
+        height: 115px;
+    }
+    }
+@media (max-width: 640px){
+    body{
+        font-size: 15px;
+    }
+    .cont_header, .cont_main, .footer{
+        width: 400px;
+    }
+    .profile_contacts{
+        margin-left: 0px;
+    }
+    .profile_inner{
+        margin-left: 5px;
+    }
+    .my_photo{
+        width: 115px;
+    }
+    h1{
+        font-size: 25px;
+        margin: 0;
+    }
+    .profession, .header_nav, .description_photo{
+        font-size: 7px;
+    }
+    .contact_text{
+        font-size: 10px;
+    }
+    .contact_block, .photo_title{
+        margin-bottom: 5px;
+    }
+    .contacts {
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    .img_contact{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+    }
+    .profession{
+        text-align: left;
+    }
+    .title_decoration::after{
+        width: 320px;
+    }
+    .container_main{
+        padding: 0;
+    }
+    .skill{
+        margin: 0 5px;
+    }
+    .code_context{
+        padding: 10px 15px;
+        width: 300px;
+        height: 85px;
+    }
+}
