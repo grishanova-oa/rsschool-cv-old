@@ -74,7 +74,7 @@ h4 {
 }
 .nav_item {
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 32px;
     color: #ffffff;
     font-size: 20px;
 }
@@ -84,6 +84,7 @@ h4 {
 }
 .lang {
     padding-right: 18px;
+    display: flex;
 }
 .lang a {
     color: #ffffff;
@@ -144,10 +145,10 @@ h1 {
     font-size: 40px;              
     line-height: 80px;
     text-align: center;
-    width: 49%;
+    width: 700px;
     margin: 0 auto;
     overflow: hidden;
-    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+    background-image: linear-gradient(to top, #000 39px, #bdae82 40px, #bdae82 42px, #000 41px);
     background-size: auto;
 }
 .section_title span {
@@ -225,7 +226,7 @@ h1 {
     height: 55px;
     background: none;
     font-size: 20px;
-    border: 2px solid #bdae82;
+    border: 3px solid #bdae82;
     cursor: pointer;
     color: #bdae82;
 }
@@ -303,7 +304,7 @@ h3 {
     width: 1440px;
     height: 700px;
 }
-.qwe {
+.contacts_inner {
     width: 450px;
     padding-top: 60px;
     margin-right: 20px;
@@ -351,6 +352,67 @@ h3 {
     height: 100px;
     margin-bottom: 30px;
 }
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #bdae82; 
+}
 .btn_contact {
     margin-right: auto;        
+}
+/* -----FOOTER----- */
+.footer_inner {
+    display: flex;
+    padding: 50px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy_footer {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.copy_footer p {
+    font-size: 20px;
+    line-height: 50px;
+}
+.github {
+    text-decoration: none;
+    color: #ffffff;
+}
+.rss {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 20px;
+}
+.footer_nav {
+    display: flex;
+}
+.footer_link li {
+    list-style-type: none;
+}
+.footer_link {
+    display: flex;
+    gap: 20px;
+}
+.social_icon {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+.insta {
+    background: url('./assets/svg/inst.svg') center no-repeat;
+}
+.fb {
+    background: url('./assets/svg/fb.svg') center no-repeat;
+}
+.tw {
+    background: url('./assets/svg/tw.svg') center no-repeat;
+}
+.pinterest {
+    background: url('./assets/svg/pinterest.svg') center no-repeat;
 }
