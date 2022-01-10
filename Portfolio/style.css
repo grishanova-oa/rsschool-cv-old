@@ -26,6 +26,7 @@ h4 {
     *:before,
     *:after {
         box-sizing: border-box;
+        scroll-behavior: smooth;
     }
 .intro {
     background-color: #000;
