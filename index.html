@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans&family=Slabo+27px&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=PT+Sans&family=Slabo+27px&display=swap" rel="stylesheet">
+    <title>Grishanova_Olga</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container cont_header">
+            <nav class="header_nav">
+                <ul class="header_menu">
+                    <li class="menu_item "><a href="#about" class="menu_about menu_item">About me.</a></li>
+                    <li class="menu_item"><a href="#education" class="menu_educ menu_item">Education</a></li>
+                    <li class="menu_item"><a href="#skills" class="menu_skil menu_item">Skills</a></li>
+                    <li class="menu_item"><a href="#language" class="menu_lang menu_item">Language</a></li>
+                    <li class="menu_item"><a href="#example" class="menu_example menu_item">Example Code</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+    <main class="column_main">
+        <div class="container cont_main">    
+            <section class="container_profile">
+                <figure class="photo">
+                    <img src="assets/img/My_photo.jpg" alt="MyPhoto" class="my_photo">
+                    <figcaption class="description_photo">Happy woman</figcaption>
+                </figure>
+                <div class="profile_inner">    
+                    <div class="photo_title">
+                        <h1>Olga Grishanova</h1>
+                        <h3 class="profession">Junior Front-End Developer</h3>
+                    </div>
+                    <div class="profile_contacts">
+                        <h2 class="contacts">Contacts:</h2>
+                            <ul class="contacts_list">
+                                <li class="contact_block">
+                                    <div class="img_phone img_contact"></div>
+                                    <a class="contact_text" href="" target="blank">+37529 891 98 72</a>
+                                </li>
+    
+                                <li class="contact_block">
+                                    <div class="img_email img_contact"></div>
+                                    <div class="contact_text">Grishanova.oa@gmail.com</div>
+                                </li>
+    
+                                <li class="contact_block">
+                                    <div class="img_discord img_contact"></div>
+                                    <a class="contact_text" href="" target="blank">Olga_Grishanova#8420</a>
+                                </li>
+                                
+                                <li class="contact_block">
+                                    <div class="img_location img_contact"></div>
+                                    <a class="contact_text" href="" >Minsk, Belarus</a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>    
+            </section>
+            <section class="container_main" >
+                <h2 class="title_decoration">About</h2>
+                <p class="about_text">
+                    Currently, I am a beginner JS developer and I really want to develop in the IT field.  
+                    I am very capable and purposeful, I am focused on the result.  
+                    And I am sure that my qualities will help me achieve high results in this area.</p>
+            </section>
+            <section class="container_main"  id="education">
+                <h2 class="title_decoration">Education and courses</h2>
+                <h4 class="name_college"> <span>2005-2008 - </span> The Vitebsk State College of Communications</h4>
+                <h4 class="name_college"><span>2008-2014 - </span> Belarusian State University of Informatics and Radioelectronics</h4>
+                <h4 class="name_college"><span>2019-2020 - </span>HTML Academy courses</h4>
+                <h4 class="name_college"><span>2021-at present - </span>RS-School</h4>
+            </section>
+            <section class="container_main" id="skills">
+                <h2 class="title_decoration">My Skills</h2>
+                <div class="my_skills">
+                    <div class="circle">
+                        <div class="img_html skill"></div>
+                        <div class="img_css skill"></div>
+                        <div class="img_js skill"></div>
+                        <div class="img_git skill"></div>
+                    </div>  
+                </div>
+            </section>
+            <section class="container_main"  id="language">
+                <h2 class="title_decoration">Language</h2>
+                <ul class="my_language">
+                    <li class="color_point" ><span>Russian - Native</span></li>
+                    <li class="color_point" ><span>English - A2</span></li>
+                </ul>
+            </section>
+            <section class="container_main" id="example">
+                <h2 class="title_decoration">Example Code</h2>
+                <div class="wrapper_code">
+                    <code class="code">
+                        <span class="code_context">
+                        function fakeBin(str){<br>
+                            &nbsp;&nbsp;&nbsp;const arr = str.split('');<br>
+                            &nbsp;&nbsp;&nbsp;const result = arr.map(function(elem){<br>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;return elem &gt;= 5 ? 1 : 0;<br>
+                        }); <br>
+                            <br>
+                            return result.join('');<br>
+                        }
+                        </span>
+                      </code>
+                </div>
+            </section>
+        </div>    
+    </main>
+    <footer class="footer container">
+        <div class="footer_inner">
+            <div class="year">2021</div>
+            <div class="rs_logo">
+                <a href="https://rs.school/js/" target="_blank"  class="logo_a">
+                    <img src="./assets/svg/rsschool-js.svg" alt="rss" class="logo_img">
+                </a>
+            </div>
+            <div class="git_logo">
+                <a href="https://github.com/grishanova-oa" target="_blank"  class="logo_git">
+                    <img src="./assets/img/iсon/git.png" alt="git" class="logo_git">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
